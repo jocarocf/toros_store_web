@@ -24,18 +24,6 @@ export default function Navbar() {
           <a href="#contacto" className="hover:text-white">Contacto</a>
         </nav>
 
-        {/* Botón de Cotización */}
-        <div>
-          <a
-            href="https://wa.me/573000000000?text=Hola%20TOROS,%20quiero%20solicitar%20una%20cotización"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2.5 rounded-lg font-bold text-xs md:text-sm uppercase tracking-wider bg-white text-black hover:bg-zinc-200 transition-all shadow-md"
-          >
-            Solicitar Cotización
-          </a>
-        </div>
-
       </div>
     </header>
   );
