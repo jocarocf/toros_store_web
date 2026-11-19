@@ -1,4 +1,5 @@
 import React from 'react';
+import torosLogo from './assets/toros5.jpeg';
 
 export default function Nosotros() {
   return (
@@ -34,7 +35,7 @@ export default function Nosotros() {
         <div className="relative">
           <div className="aspect-[4/3] rounded-3xl overflow-hidden bg-stone-100 shadow-lg">
             <img 
-              src="src/assets/toros5.jpeg" 
+              src={torosLogo}
               alt="Taller de estampados Toros Store" 
               className="w-full h-full object-cover"
             />
